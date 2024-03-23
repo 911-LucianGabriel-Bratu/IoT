@@ -22,7 +22,6 @@ while True:
           if ring_button.is_pressed:
             ring_led.on()
             ring_buzzer.on()
-            #take photo
             is_ringing = True
             camera.start_preview(Preview.QTGL)
             camera.start()
